@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  
+header {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+  
+section {
+    padding: 2rem;
+}
+  
+.redes-sociais {
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+ul {
+    list-style-type: none;
+    padding-right: 40px;
+}
+  
+img {
+    width: 2rem;
+    right: 2rem;
+}
+  
+#rs {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(128, 128, 128, 0.418)
+}
+  
+a {
+    margin-left: 1.8rem;
+    color: black;
+    text-decoration: none;
+  
+  
+}
+  
+a:hover {
+    color: #ffffff80;
+}
